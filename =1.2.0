@@ -1,0 +1,10 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting tinycss2
+  Downloading tinycss2-1.4.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting webencodings>=0.4 (from tinycss2)
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl.metadata (2.1 kB)
+Downloading tinycss2-1.4.0-py3-none-any.whl (26 kB)
+Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Installing collected packages: webencodings, tinycss2
+
+Successfully installed tinycss2-1.4.0 webencodings-0.5.1
