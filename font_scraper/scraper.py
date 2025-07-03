@@ -7,7 +7,7 @@ from typing import List, Dict, Tuple, Optional
 from urllib.parse import urljoin, urlparse
 import time
 
-from src.utils import ScrapeResults, validate_url
+from font_scraper.utils import ScrapeResults, validate_url
 
 
 class WebScraper:

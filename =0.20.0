@@ -1,6 +1,0 @@
-Defaulting to user installation because normal site-packages is not writeable
-Collecting validators
-  Downloading validators-0.35.0-py3-none-any.whl.metadata (3.9 kB)
-Downloading validators-0.35.0-py3-none-any.whl (44 kB)
-Installing collected packages: validators
-Successfully installed validators-0.35.0
