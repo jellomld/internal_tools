@@ -17,7 +17,38 @@ A powerful command-line tool for analyzing fonts used on websites. This tool ext
 
 ## Installation
 
-### Option 1: Direct Installation
+### 🚀 Quick Install (Recommended for macOS)
+
+#### One-Command Install
+```bash
+# Download and run the installer
+curl -sSL https://raw.githubusercontent.com/infamous/font-scraper/main/install-macos.sh | bash
+```
+
+#### Or clone and install
+```bash
+git clone https://github.com/infamous/font-scraper.git
+cd font-scraper
+make install
+```
+
+#### Homebrew (Coming Soon)
+```bash
+brew tap infamous/tools
+brew install font-scraper
+```
+
+### 🔧 Alternative Installation Methods
+
+#### Option 1: Quick Makefile Commands
+```bash
+make help          # See all available commands
+make install       # Quick install
+make install-dev   # Development mode
+make check         # Verify installation
+```
+
+#### Option 2: Manual Installation
 ```bash
 # Install dependencies
 pip install -r requirements.txt
@@ -29,7 +60,7 @@ chmod +x font-scraper
 ./font-scraper https://example.com
 ```
 
-### Option 2: Package Installation
+#### Option 3: Package Installation
 ```bash
 # Install as a package
 pip install -e .
@@ -38,7 +69,7 @@ pip install -e .
 font-scraper https://example.com
 ```
 
-### Option 3: Python Module
+#### Option 4: Python Module
 ```bash
 # Run as a Python module
 python -m src.main https://example.com
