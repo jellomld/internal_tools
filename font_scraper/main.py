@@ -8,12 +8,12 @@ import os
 import click
 from typing import Optional
 
-# Add src directory to path for imports
+# Add package directory to path for imports  
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from src.font_detector import FontDetector
-from src.output_formatter import OutputFormatter
-from src.utils import validate_url
+from font_scraper.font_detector import FontDetector
+from font_scraper.output_formatter import OutputFormatter
+from font_scraper.utils import validate_url
 
 
 @click.command()
@@ -213,7 +213,7 @@ def batch(urls: tuple, output: str, save_dir: Optional[str]):
 @cli.command()
 def version():
     """Show version information."""
-    from . import __version__
+    from font_scraper import __version__
     click.echo(f"Font Scraper v{__version__}")
 
 

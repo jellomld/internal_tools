@@ -4,9 +4,9 @@ import re
 from typing import List, Dict, Set, Optional
 from bs4 import BeautifulSoup
 
-from src.utils import Font, ScrapeResults, normalize_font_name, detect_font_provider, is_system_font
-from src.scraper import WebScraper
-from src.css_parser import CSSParser
+from font_scraper.utils import Font, ScrapeResults, normalize_font_name, detect_font_provider, is_system_font
+from font_scraper.scraper import WebScraper
+from font_scraper.css_parser import CSSParser
 
 
 class FontDetector:

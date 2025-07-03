@@ -7,7 +7,7 @@ from typing import List, Dict, Any, TextIO
 from io import StringIO
 from colorama import init, Fore, Style
 
-from src.utils import ScrapeResults, Font
+from font_scraper.utils import ScrapeResults, Font
 
 # Initialize colorama for cross-platform colored output
 init()

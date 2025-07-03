@@ -6,7 +6,7 @@ import tinycss2
 from typing import List, Dict, Tuple, Optional, Set
 from urllib.parse import urljoin
 
-from src.utils import (
+from font_scraper.utils import (
     Font, normalize_font_name, clean_css_value, parse_font_face_src,
     detect_font_provider, is_system_font, extract_font_weight_from_name,
     extract_font_style_from_name
