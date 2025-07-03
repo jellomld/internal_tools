@@ -1,0 +1,6 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting click
+  Downloading click-8.2.1-py3-none-any.whl.metadata (2.5 kB)
+Downloading click-8.2.1-py3-none-any.whl (102 kB)
+Installing collected packages: click
+Successfully installed click-8.2.1
