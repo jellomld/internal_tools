@@ -4,6 +4,7 @@ import unittest
 from unittest.mock import patch, Mock
 import sys
 import os
+import requests
 
 # Add src to path for testing
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
@@ -43,7 +44,7 @@ class TestWebScraper(unittest.TestCase):
     @patch('requests.Session.get')
     def test_fetch_html_failure(self, mock_get):
         """Test HTML fetching failure."""
-        mock_get.side_effect = Exception("Network error")
+        mock_get.side_effect = requests.exceptions.RequestException("Network error")
         
         result = self.scraper._fetch_html('https://example.com')
         self.assertIsNone(result)
